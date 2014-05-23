@@ -1,0 +1,184 @@
+/* GLOBAL STYLES ===================== */
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Special Elite', 'cursive';
+	background: url(imgs/paper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #33160d;
+	font-size: 1em;
+}
+
+body img {
+	max-width: 90%;
+}
+
+input {
+	text-align: center;
+	
+}
+
+/* Header ========================== */
+
+#header {
+    text-align: center;
+	height: 80px;
+	width: 100%;
+	font-family: 'Special Elite', 'cursive';
+	padding-top: 30px;
+	padding-bottom: 140px;
+
+}
+
+#header h1 {
+    font-family: 'Special Elite', 'cursive';
+	font-size: 2.5em;
+	line-height: 0.5;
+	color: #400300;
+}
+
+@media (max-width: 400px) {
+	.container {
+	font-size: 1.4em;
+	}
+	.container input {
+	font-size: 1.4em;
+}
+}
+
+/* INPUT BOXES ========================= */
+
+#d20times {
+	background: url(imgs/trans2.png);
+	border: 2px solid #420b00;
+	border-radius: 5px;
+}
+
+#d10times {
+	background: url(imgs/trans2.png);
+	border: 2px solid #420b00;
+	border-radius: 5px;
+}
+
+#d8times {
+	background: url(imgs/trans2.png);
+	border: 2px solid #420b00;
+	border-radius: 5px;
+}
+
+#d6times {
+	background: url(imgs/trans2.png);
+	border: 2px solid #420b00;
+	border-radius: 5px;
+}
+
+#d4times {
+	background: url(imgs/trans2.png);
+	border: 2px solid #420b00;
+	border-radius: 5px;
+}
+
+/* BUTTONS ========================= */
+
+.but {
+	font-family: 'Special Elite', 'cursive';
+	font-size: 1em;
+	color: #eddcb4;
+	border: none;
+	border-radius: 5px;
+	background: #400300;
+	margin: 0 auto;
+	padding-bottom: 0px;
+	padding-top: 5px;
+}
+
+.but:hover {
+	background: #170808;
+}
+
+#clear {
+	font-size: 1.3em;
+}
+
+
+
+/* DICE ===================== */
+
+#banner {
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* TOTAL ===================== */
+
+#total {
+    padding-top: 90px;
+	padding-bottom: 20px;
+	font-size: 1.3em;
+}
+
+/* CONTAINER ===================== */
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+	
+
+}
+
+/* RESPONSIVE COLUMNS ===================== */
+
+@media (min-width: 600px) {
+.column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.column.full {
+    width: 100%;
+}
+
+.column.fifth {
+    width: 20%;
+
+}
+
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#footer {
+	width: 100%;
+	background: url(imgs/trans2.png);
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#footer p {
+	margin-left: 5%;
+	margin-right: auto;
+}
+

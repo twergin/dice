@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dungeons and Dragons Dice Simulator</title>
+
+</head>
+
+<body>
+
+    <div id="header">
+
+        <img src="imgs/D&Dlogo.png">
+		<h1>Dice Roller</h1>
+
+    </div>
+
+
+    <div class="container">
+
+        <div id="d20" class="column fifth">
+
+            <button id="d20roll" class="but" onclick="roll(d20DiceRolls, 'd20result', 'd20times', 20) ">Roll d20</button>
+
+
+           <input id="d20times" type="text" size="3" maxlength="3" value="1"> Time(s)
+
+
+            <div id="d20result"><p></p></div>
+
+        </div>
+
+
+        <div id="d10" class="column fifth">
+
+                <button id="d10roll" class="but" onclick="roll(d10DiceRolls, 'd10result', 'd10times', 10) ">Roll d10</button>
+
+            <input id="d10times" type="text" size="3" maxlength="3" value="1"> Time(s)
+
+                <div id="d10result"><p></p></div>
+
+        </div>
+
+
+        <div id="d8" class="column fifth">
+
+            <button id="d8roll" class="but" onclick="roll(d8DiceRolls, 'd8result', 'd8times', 8) ">Roll d8</button>
+
+            <input id="d8times" type="text" size="3" maxlength="3" value="1"> Time(s)
+
+            <div id="d8result"><p></p></div>
+
+        </div>
+
+        <div id="d6" class="column fifth">
+
+                <button id="d6roll" class="but" onclick="roll(d6DiceRolls, 'd6result', 'd6times', 6) ">Roll d6</button>
+
+            <input id="d6times" type="text" size="3" maxlength="3" value="1"> Time(s)
+
+                <div id="d6result"><p></p></div>
+
+        </div>
+
+        <div id="d4" class="column fifth">
+
+                <button id="d4roll" class="but" onclick="roll(d4DiceRolls, 'd4result', 'd4times', 4) ">Roll d4</button>
+
+            <input id="d4times" type="text" size="3" maxlength="3" value="1"> Time(s)
+
+                <div id="d4result"><p></p></div>
+
+        </div>
+
+
+
+
+            <div id="total">
+
+                Total:
+
+            </div>
+
+            <div id="reset">
+
+                <button id="clear" class="but" onclick="reset() ">Clear</button>
+
+            </div>
+			
+			<div id="banner">
+			
+				<img src="imgs/dice.png" />
+			
+			</div>
+
+
+
+
+    </div>
+	
+	<div id="footer">
+	
+	<p>This website is not affiliated with, endorsed, sponsored, or specifically approved by Wizards of the Coast LLC. This website may use the trademarks and other intellectual property of Wizards of the Coast LLC, which is permitted under Wizards' Fan Site <a href="http://www.wizards.com/fankit/fantoolkitdnd.html">Policy</a>. For example, DUNGEONS & DRAGONS®, D&D®, PLAYER'S HANDBOOK 2®, and DUNGEON MASTER'S GUIDE® are trademark[s] of Wizards of the Coast and D&D® core rules, game mechanics, characters and their distinctive likenesses are the property of the Wizards of the Coast. For more information about Wizards of the Coast or any of Wizards' trademarks or other intellectual property, please visit their website at <a href="http://www.wizards.com">www.wizards.com</a></p>
+	
+	</div>
+
+
+<script type="text/javascript" src="dice.js"></script>
+</body>
+</html>
